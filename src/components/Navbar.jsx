@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <main>
-      <ul>
+      <ul className="list-none">
         {links.map((link) => {
           const { id, text, url } = link;
           return (
