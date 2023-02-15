@@ -7,7 +7,7 @@ import Login from "../pages/LoginPage";
 function Navbar() {
   return (
     <section className=" py-12  ">
-      <div className="flex m-auto justify-between max-w-screen-lg">
+      <div className="flex m-auto justify-between desktop:w-8/12 tablet:w-9/12 mobile:w-11/12">
         <button type="button" className="px-4">
           Menu
         </button>
