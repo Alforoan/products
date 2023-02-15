@@ -1,11 +1,14 @@
 import React from "react";
 import Navbar from "./components/Navbar";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div>
-      <h1>testing</h1>
-    </div>
+    <Navbar/>
+    <Routes>
+        
+
+    </Routes>
   );
 }
 
