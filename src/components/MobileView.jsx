@@ -4,7 +4,7 @@ import { BiMenu } from "react-icons/bi";
 
 function MobileView() {
   return (
-    <section className=" py-12 ">
+    <section className=" py-8 desktop:hidden tablet:hidden">
       <div className="flex m-auto justify-between mobile:w-11/12 ">
         <Link className="" to="/cart">
           Cart(0)

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
-    <section className=" py-12 mobile:hidden">
+    <section className=" py-8 mobile:hidden">
       <div className="flex m-auto justify-between desktop:w-8/12 tablet:w-10/12 ">
         <button type="button" className="px-4">
           Menu

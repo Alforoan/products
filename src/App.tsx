@@ -7,10 +7,12 @@ import Products from "./pages/ProductsPage";
 import Cart from "./pages/CartPage";
 import Login from "./pages/LoginPage";
 import MobileView from "./components/MobileView";
+import Heading from "./components/Heading";
 
 function App() {
   return (
     <>
+      <Heading />
       <Navbar />
       <MobileView />
       <Routes>
