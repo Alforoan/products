@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function Heading() {
   return (
-    <main className="bg-pink py-4">
+    <main className="bg-pink py-4 ">
       <div className="flex justify-center text-center w-11/12 m-auto">
         <p>
           Free shipping on all internationl orders over $25{" "}

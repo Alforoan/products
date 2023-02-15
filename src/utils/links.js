@@ -6,12 +6,22 @@ export const links = [
   },
   {
     id: 2,
-    text: "About",
-    url: "/about",
+    text: "Shop All",
+    url: "/shop",
   },
   {
     id: 3,
-    text: "Products",
-    url: "/products",
+    text: "Our Mission",
+    url: "/mission",
+  },
+  {
+    id: 4,
+    text: "Contact",
+    url: "/contact",
+  },
+  {
+    id: 5,
+    text: "FAQ",
+    url: "/faq",
   },
 ];

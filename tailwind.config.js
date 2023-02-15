@@ -13,6 +13,7 @@ module.exports = {
       colors: {
         primary: "lightgray",
         pink: "#ffd6ff",
+        hoverblue: "#170Df2",
       },
     },
   },
