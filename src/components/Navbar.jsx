@@ -6,11 +6,17 @@ import Login from "../pages/LoginPage";
 
 function Navbar() {
   return (
-    <section>
-      <h2>Menu</h2>
-      <h1>Alforoan</h1>
-      <CartPage />
-      <Login />
+    <section className=" py-12  ">
+      <div className="flex m-auto justify-between max-w-screen-lg">
+        <button type="button" className="px-4">
+          Menu
+        </button>
+        <Link to="/">Alforoan</Link>
+        <div className="px-4 flex">
+          <Link to="/cart">Cart(0)</Link>
+          <Link to="/login">Log In</Link>
+        </div>
+      </div>
     </section>
   );
 }

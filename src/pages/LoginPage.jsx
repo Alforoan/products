@@ -5,7 +5,7 @@ function LoginPage() {
   return (
     <main className="flex items-center">
       <FaUserCircle />
-      <h2>Log In</h2>{" "}
+      <h2>Here's a login page</h2>
     </main>
   );
 }
