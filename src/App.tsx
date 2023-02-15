@@ -6,11 +6,13 @@ import About from "./pages/AboutPage";
 import Products from "./pages/ProductsPage";
 import Cart from "./pages/CartPage";
 import Login from "./pages/LoginPage";
+import MobileView from "./components/MobileView";
 
 function App() {
   return (
     <>
       <Navbar />
+      <MobileView />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
