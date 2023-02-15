@@ -1,8 +1,22 @@
 import React from "react";
-import links from "../utils/links";
+import { links } from "../utils/links";
+import { Link } from "react-router-dom";
 
 function Navbar() {
-  return <div>testing number 2</div>;
+  return (
+    <main>
+      <ul>
+        {links.map((link) => {
+          const { id, text, url } = link;
+          return (
+            <li key={id}>
+              <Link to={url}>{text}</Link>
+            </li>
+          );
+        })}
+      </ul>
+    </main>
+  );
 }
 
 export default Navbar;
