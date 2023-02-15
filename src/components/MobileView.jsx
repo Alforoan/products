@@ -10,7 +10,7 @@ function MobileView() {
           Cart(0)
         </Link>
         <Link className="" to="/">
-          Alforoan
+          A .M
         </Link>
         <button type="button">
           <BiMenu />

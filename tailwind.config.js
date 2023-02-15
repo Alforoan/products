@@ -12,7 +12,7 @@ module.exports = {
       },
       colors: {
         primary: "lightgray",
-        background: "#ffd6ff",
+        pink: "#ffd6ff",
       },
     },
   },
