@@ -1,21 +1,17 @@
 import React from "react";
 import { links } from "../utils/links";
 import { Link } from "react-router-dom";
+import CartPage from "../pages/CartPage";
+import Login from "../pages/LoginPage";
 
 function Navbar() {
   return (
-    <main>
-      <ul className="list-none">
-        {links.map((link) => {
-          const { id, text, url } = link;
-          return (
-            <li key={id}>
-              <Link to={url}>{text}</Link>
-            </li>
-          );
-        })}
-      </ul>
-    </main>
+    <section>
+      <h2>Menu</h2>
+      <h1>Alforoan</h1>
+      <CartPage />
+      <Login />
+    </section>
   );
 }
 
