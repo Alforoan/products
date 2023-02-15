@@ -13,7 +13,7 @@ function Navbar() {
         >
           Menu
         </button>
-        <Link className="pl-6 text-2xl font-bold" to="/">
+        <Link className="absolute left-1/2 text-2xl font-bold" to="/">
           A .M
         </Link>
         <div className="px-4 flex">
